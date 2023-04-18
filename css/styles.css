@@ -556,8 +556,7 @@ body {
 
 .portfolio-link {
     display: block;
-    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
-        0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+
 }
 
 .portfolio-subject {
@@ -588,7 +587,10 @@ body {
 
 .box-shadow:hover,
 .box-shadow:focus {
-    box-shadow: 0px 1px 6px rgba(37, 38, 51, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+    box-shadow: 0px 1px 6px rgba(37, 38, 51, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 
@@ -608,11 +610,12 @@ body {
     border: 1px solid #E7E9FC;
     border-radius: 4px;
     padding: 12px 24px;
-    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
-        0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .btn-list:is(:hover, :focus) {
     color: var(--btn-list-color);
     background-color: var(--btn-list-background);
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+    border: var(--focus-hover);
 }
